@@ -34,18 +34,18 @@ Themed AppBar: Light purple background with bold, italicized titles.
 Responsive UI: Scrollable lists and layouts for mobile devices.
 9. Error Handling
 Provides user feedback for errors like network issues or empty lists (e.g., "Something went wrong!" or "No breeds available").
-How to Use
-Dogs Tab:
+How to Use-
 
+Dogs Tab:
 View the list of all dogs.
 Tap on the edit or delete icon to modify or remove a dog entry.
 Use the "Add Dog" button to input a new dog's details.
-Breeds Tab:
 
+Breeds Tab:
 View all breeds in a structured list.
-Tap on a breed to edit or delete its details.
 Use the "Add Breed" button to add a new breed.
-Tech Stack
+
+Tech Stack:
 Frontend: Flutter
 Backend: SQLite (or replace with a specific database if any)
 UI Widgets:
