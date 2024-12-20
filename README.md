@@ -54,3 +54,9 @@ FutureBuilder for asynchronous data fetching.
 ListView.builder for dynamic and responsive list rendering.
 Card for individual record presentation.
 
+![Image](https://github.com/user-attachments/assets/6b6248cf-d294-42e3-bcbc-4fe2d6ca1072)
+![Image](https://github.com/user-attachments/assets/9326b206-39bd-43c1-a77e-3c0396b7a59d)
+![Image](https://github.com/user-attachments/assets/bf32921f-3248-4388-973b-fa8085edaaf7)
+![Image](https://github.com/user-attachments/assets/0ed398b9-765f-4999-af52-edc7e0a36e50)
+![Image](https://github.com/user-attachments/assets/70b9185a-65b0-4b7a-a19f-23a458be1275)
+![Image](https://github.com/user-attachments/assets/13a64b70-5bff-41c0-bd4b-5a69979921bd)
