@@ -1,0 +1,45 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin" // Keep this after Android and Kotlin plugins
+}
+
+android {
+    namespace = "com.example.breed_tracker"
+    compileSdk = 35 // Use an explicit compileSdk version
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11" // Ensure this is a string
+    }
+
+    defaultConfig {
+        applicationId = "com.example.breed_tracker"
+        minSdk = 23 // Set a minimum SDK version
+        //noinspection EditedTargetSdkVersion
+        targetSdk = 35 // Match with compileSdk for better compatibility
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false // Ensure no minification for debugging
+        }
+        release {
+            signingConfig signingConfigs.debug
+            minifyEnabled false // Disable minification to avoid shrink-related issues
+            shrinkResources false // Disable resource shrinking
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
